@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body, html {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 1.5;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", serif;
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.sedans, .suvs, .luxury {
+    flex: 1; 
+    padding: 50px;
+    min-width: 200px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.learnmore {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.sedans .learnmore {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs .learnmore {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .learnmore {
+    color: hsl(179, 100%, 13%);
+}
